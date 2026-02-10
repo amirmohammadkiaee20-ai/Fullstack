@@ -111,4 +111,118 @@ Merges another branch into the current branch.
 
 Delete a branch.
 
-`git branch -d <Branch-Name`
+`git branch -d <Branch-Name>`
+
+## 🔹 Remote Repositories
+
+### Connect to a local Repository
+
+Connects a local repository to a remote repository.
+
+`git remote add origin <repository-url>`
+
+### Send Commits To Remote
+
+Pushes local commits to the remote repository.
+
+`git push origin main`
+
+### Recive Changes from Remote
+
+Fetches and integrates changes from the remote repository.
+
+`git pull origin main`
+
+## 🔹 Tags & Versioning
+
+### Show all Tags
+
+Lists all tags.
+
+`git tag`
+
+### Tag Lists (Pattern)
+
+Lists tags matching a pattern.
+
+`git tag -l "v*"`
+
+### Create Tag with a Commit
+
+Creates an annotated tag on the latest commit.
+
+`git tag -a v1.0 -m "commit message"`
+
+### Create Tag from Specific Commit
+
+Creates an annotated tag on a specific commit.
+
+`git tag -a v1.1 <commit-hash>`
+
+### Create a Signed Tag
+
+Creates a signed tag using a GPG key.
+
+git tag -s v1.2 -m "commit message"
+
+### Verify a Signed Tag
+
+Verifies a signed tag.
+
+`git tag -v v1.2`
+
+## 🔹 GPG & Security
+
+### Generate Key
+
+Generates a new GPG key.
+
+`gpg --gen-key`
+
+### Show All Public Keys
+
+Lists all public GPG keys.
+
+`gpg --list-keys`
+
+### Show All Secret Keys
+
+Lists all secret GPG keys with long key IDs.
+
+`gpg --list-secret-keys --keyid-format LONG`
+
+### Config Signingkey
+
+Change your user signing key.
+
+`git config --global user.signingkey <key-id>`
+
+## 🔹 Debugging & Investigation
+
+### Show last modify
+
+Shows who last modified each line of a file.
+
+- All Lines:
+
+`git blame <file-name>`
+
+- Specific Lines:
+
+`git blame <file-name> -L 10,20`
+
+### Fixing Bug
+
+Helps find the commit that introduced a bug.
+
+`git bisect start`
+`git bisect bad`
+`git bisect good <commit-hash>`
+
+## 🔹 Help
+
+### git Help
+
+Shows help for any Git command.
+
+`git help <command>`
