@@ -4,7 +4,7 @@ This repository documents my full‑stack development learning path.
 
 ## Structure
 
-- **phase‑0/** – Preparation (Environment setup, Git, npm, terminal basics)
+- **Phase‑0/** – Preparation (Environment setup, Git, npm, terminal basics)
 
 ## Goal
 
