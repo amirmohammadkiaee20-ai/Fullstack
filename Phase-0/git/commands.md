@@ -15,7 +15,7 @@ Initializes a new Git repository in the current folder.
 
 Clones an existing repository from GitHub to the local machine.
 
-`git clone`
+`git clone *Link*`
 
 ## 🔹 Checking Repository State
 
