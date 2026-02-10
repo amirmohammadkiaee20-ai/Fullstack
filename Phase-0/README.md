@@ -1,14 +1,48 @@
-# Phase 0 – Preparation (2‑3 days)
+# Phase 0 – Preparation (2–3 Days)
+
+## Purpose
+
+This phase is about **building a solid foundation before real coding begins**.
+The goal is to set up the development environment, understand essential tools,
+and develop correct daily habits used by professional developers.
+
+No frameworks or application code are expected in this phase.
+
+---
 
 ## Goals
 
-Set up a clean developer environment and build strong habits:
+By the end of Phase 0, I should be able to:
 
-- Terminal basics
-- Folder structure & npm
-- Git fundamentals
-- Daily commits & pushes to GitHub
+- Use the terminal comfortably for daily development tasks
+- Understand basic project folder structures
+- Work with npm and understand what it does
+- Use Git confidently (commit, branch, merge, pull request)
+- Maintain daily progress through meaningful GitHub commits
 
-## Output
+---
 
-A working repository that reflects daily progress and commits for Phase 0.
+## Topics Covered
+
+- ✅ Development environment setup
+  - VS Code
+  - Node.js
+  - Git & GitHub
+- ✅ Terminal basics
+- ✅ Folder structure concepts
+- ✅ npm fundamentals
+- ✅ Git fundamentals
+
+---
+
+## Out of Scope
+
+The following are intentionally **NOT included** in Phase 0:
+
+- HTML / CSS
+- JavaScript coding
+- Frontend frameworks (React, etc.)
+- Backend development
+- Databases
+
+These will be covered in later phases.
