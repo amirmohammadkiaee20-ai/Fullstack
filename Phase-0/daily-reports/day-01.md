@@ -5,20 +5,22 @@
 - Start Learning
 - Learning Git & GitHub basics
 - Create GitHub Repository (Fullstack)
-- Getting Git and GitHub Certificate
+- Getting Git and GitHub Certificate(faradars.org)
 
 ## 📚 What I Learned
 
-- How to set up a new repository
-- How to clone an existing repository
-- How to check the repository state
-- Staging and committing in Git
-- How to remove files in Git
-- Branching in Git
-- Working with remote repositories
-- Tagging and versioning
-- GPG and security
-- How Git helps in debugging a project
+### Git commands(git/commands.md):
+
+- Repository Setup: `git init - git clone`
+- Checking Repository State: `git status - git log - git show - git diff HEAD`
+- Staging & Committing: `git add - git commit - git reset`
+- Removing Files: `git rm`
+- Branching: `git branch - git checkout`
+- Remote Repositories: `git remote add - git push - git pull`
+- Tags & Versioning: `git tag`
+- GPG & Security: `gpg --gen-key - gpg --list-keys - gpg --list-secrec-keys - git config --glibal user.signingkey`
+- Debugging & Investigation: `git blame - git bisect`
+- Git help command: `git help`
 
 ## 🛠️ Practice
 
@@ -41,4 +43,4 @@
 
 - Practice more with Git and GitHub
 - Learn basic terminal commands
-- Learn a bit about npm
+- Learn basic npm commands
