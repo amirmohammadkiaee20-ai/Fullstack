@@ -25,7 +25,7 @@
 ## 🛠️ Practice
 
 - **Terminal / Git / npm** commands
-- Html practice file: Example.html
+- Html practice file: Example1.html
 
 ## 🧠 Key Takeaways
 
