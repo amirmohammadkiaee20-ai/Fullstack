@@ -37,12 +37,6 @@ By the end of Phase 0, I should be able to:
 
 ## Out of Scope
 
-The following are intentionally **NOT included** in Phase 0:
+The following are intentionally included in **Phase 1**:
 
 - HTML / CSS
-- JavaScript coding
-- Frontend frameworks (React, etc.)
-- Backend development
-- Databases
-
-These will be covered in later phases.
