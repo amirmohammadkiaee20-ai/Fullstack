@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--? Block and Inline Display -->
+    <!-- <style>
+      h3 {
+        display: inline;
+      }
+      p {
+        display: inline;
+      }
+      input {
+        display: block;
+      }
+    </style>
+
+    <h3>developer</h3>
+    <h1>reza</h1>
+    <p>ahmad</p>
+
+    <input />
+    <textarea></textarea> -->
+
+    <!--! Inline Block Display -->
+    <!-- <style>
+      .red {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+      }
+      .blue {
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+      }
+      div {
+        display: inline-block;
+        margin: 0px;
+      }
+    </style>
+
+    <div class="red"></div>
+    <div class="blue"></div> -->
+
+    <!--* inherit -->
+    <!-- <header> parent nav - grandfather div
+      <nav> parent div - child header
+        <div>Reza</div> child nav - grandchild header
+        <div>Ahmad</div> child nav - grandchild header
+      </nav>
+    </header> -->
+
+    <!--? Display flex - Justify Content - Align-Items -->
+    <!-- <style>
+      #parent {
+        display: flex;
+        justify-content: flex-start;
+        justify-content: center;
+        justify-content: flex-end;
+        justify-content: space-between;
+        justify-content: space-evenly;
+        justify-content: space-around;
+        align-items: flex-start;
+        align-items: center;
+        align-items: flex-end;
+        height: 500px;
+      }
+      #child1 {
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+      }
+      #child2 {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+      }
+    </style>
+    <div id="parent">
+      <div id="child1"></div>
+      <div id="child2"></div>
+    </div> -->
+
+    <!--! Descendant(Nested) Selector - Child selector & parent selector-->
+    <!-- <style>
+      p {
+        font-size: 30px;
+      }
+      .parents .green {
+        color: green;
+      }
+      .parents .red {
+        color: red;
+      }
+      /* .parents .parents__content .blue {
+        color: blue;
+      } */
+      /* .parents > .blue {
+        color: blue;
+      } */
+      .Cards .parents__content > p {
+        color: blue;
+      }
+      .yellow {
+        color: rgb(184, 184, 14);
+      }
+    </style>
+
+    <div class="parents">
+      <p class="red">red</p>
+      <p class="green">green</p>
+      <p class="blue">blue</p>
+      <div class="parents__content">
+        <p class="blue">blue</p>
+      </div>
+    </div>
+    <div class="Cards">
+      <p class="red">red</p>
+      <p class="green">green</p>
+      <div class="parents__content">
+        <p class="blue">blue</p>
+        <div class="parents__child">
+          <p class="yellow">yellow</p>
+        </div>
+      </div>
+    </div> -->
+  </body>
+</html>
